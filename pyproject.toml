@@ -1,7 +1,7 @@
 [project]
-name = "python-template"
+name = "Documentação do Odoo ERP"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Felipe Cavalcante <felipexcavalcante@gmail.com>"]
 requires-python = ">=3.11"
 dependencies = []
