@@ -12,13 +12,15 @@ requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
 #run = ["python3", "main.py"]
-run = "cd docs && mkdocs serve"
 deploymentTarget = "cloudrun"
 
 [[ports]]
 localPort = 8000
 externalPort = 80
-exposeLocalhost = true
+
+[[ports]]
+localPort = 8001
+externalPort = 3000
 
 [workflows]
 runButton = "Run"
@@ -30,4 +32,4 @@ mode = "sequential"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "cd docs && mkdocs serve -a 0.0.0.0:8000"
+args = "cd devs && mkdocs serve -a 0.0.0.0:8000"
