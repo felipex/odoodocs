@@ -1,5 +1,24 @@
 site_name: Odoo Docs
+site_description: Documentação do Odoo
+
 nav:
-  - Home: index.md
-  - About: about.md
-theme: readthedocs
+  - Guia: index.md  
+  - Instalação: install
+  - Implatação: install/instalacao.md    
+  - Testes: install/instalacao.md
+  - Sobre: about
+
+theme: 
+  name: readthedocs
+  locale: pt_BR
+
+extra_css:
+  - css/extra.css
+
+markdown_extensions:
+  - attr_list
+  
+plugins:
+  - search
+  - mermaid2
+  
