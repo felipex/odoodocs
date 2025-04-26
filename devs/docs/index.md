@@ -6,7 +6,7 @@ Seja bem-vindo a uma documentação extra-oficial do desenvolvedor Odoo! A docum
 
 ## Visão Geral
 * [Visão Geral](overview) 
-Incompleta
+Incompletax
 {: .incompleta}
 
 

@@ -3,9 +3,9 @@ site_description: Documentação do Odoo
 
 nav:
   - Guia: index.md  
-  - Instalação: install
-  - Implatação: install/instalacao.md    
-  - Testes: install/instalacao.md
+  - Instalação: install/index.md
+  - Implatação: index  
+  - Testes: install/index.md
   - Sobre: about
 
 theme: 
