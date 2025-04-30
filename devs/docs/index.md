@@ -10,19 +10,14 @@ Incompletax
 {: .incompleta}
 
 
-### Mais um nível
-
 ## Instalação para desenvolver
 * [Instalação](install)
  
 ## Implantação para o cliente
 
-## Relação entre os módulos
-   
-```mermaid
-graph TD
-    A[Início] --> B{Decisão}
-    B -->|Sim| C[Ação 1]
-    B -->|Não| D[Ação 2]
+## Módulos
+
+O Odoo ERP é composto por vários módulos interconectados. Veja a [relação entre os módulos](modules.md)
+
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Este obra está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional</a>.

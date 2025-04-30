@@ -34,8 +34,10 @@ O Odoo é uma plataforma de ERP/CRM modular, construída com uma arquitetura fle
 - Abstração do PostgreSQL para operações CRUD.
 - Suporte a campos computados, herança de modelos e constraints.
 - Exemplo:
-  ```python
+  
+  ```
   class Livro(models.Model):
       _name = 'biblioteca.livro'
       titulo = fields.Char(string="Título")
-      autor_id = fields.Many2one('biblioteca.autor', string="Autor")/
+      autor_id = fields.Many2one('biblioteca.autor', string="Autor")
+  ```

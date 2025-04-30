@@ -5,18 +5,30 @@ nav:
   - Guia: index.md  
   - Instalação: install/index.md
   - Implatação: index  
-  - Testes: install/index.md
   - Sobre: about
 
 theme: 
   name: readthedocs
   locale: pt_BR
 
+features:
+  - navigation.footer
+  
 extra_css:
   - css/extra.css
 
+repo_url: https://github.com/felipex/odoodocs
+repo_name: Odoo Docs
+
 markdown_extensions:
   - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
   
 plugins:
   - search
