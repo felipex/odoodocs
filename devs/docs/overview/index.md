@@ -35,7 +35,7 @@ O Odoo é uma plataforma de ERP/CRM modular, construída com uma arquitetura fle
 - Suporte a campos computados, herança de modelos e constraints.
 - Exemplo:
   
-  ```
+  ```python linenums="1"
   class Livro(models.Model):
       _name = 'biblioteca.livro'
       titulo = fields.Char(string="Título")

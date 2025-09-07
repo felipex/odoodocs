@@ -34,3 +34,6 @@ mode = "sequential"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "cd devs && mkdocs serve -a 0.0.0.0:8000"
+
+[agent]
+expertMode = true
