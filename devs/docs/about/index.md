@@ -48,6 +48,7 @@ style G fill:#f9f,stroke:#333,stroke-width:2px;
 style E fill:#9cf,stroke:#333,stroke-width:2px;
 style H fill:#f9f,stroke:#333,stroke-width:2px;
 style I fill:#f9f,stroke:#333,stroke-width:2px;
+```
 
 ```mermaid
 C4Container
@@ -81,3 +82,4 @@ Rel(person_cliente, c_nginx, "Acessa a instância do Odoo")
 Rel(app_cliente, c_nginx, "Acessa a instância do Odoo")
 Rel_Back(c_nginx, c_odoo, "Roteia tráfego para a aplicação")
 Rel(c_odoo, c_postgres, "Conecta ao banco de dados")
+```
